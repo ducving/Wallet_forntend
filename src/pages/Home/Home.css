@@ -1,0 +1,368 @@
+.body {
+    background-image: url("https://app.qnsk.site/images/bg.png");
+    height: 100vh;
+    display: flex;
+    z-index: 999;
+    position: relative;
+
+}
+.home-cart{
+    background-color: rgb(243 216 216 / 78%);
+    border-radius: 20px;
+}
+.metismenu{
+    margin-top: 20%;
+}
+.metismenu li {
+    list-style: none;
+}
+
+.metismenu a {
+    text-decoration: none;
+}
+
+.metismenu i {
+    font-size: 25px;
+}
+
+.logo-abbr {
+    margin-left: 50%;
+}
+
+.hl_logo h1 {
+    margin-left: 15%;
+}
+
+.home_left {
+    padding: 30px;
+    background-color: rgb(243 216 216 / 78%);
+    width: 13%;
+    border-radius: 20px;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.hl_logo {
+    display: flex;
+}
+
+.home_right {
+    width: 90%;
+    margin: 1%;
+}
+
+.home_right_navbar {
+    padding: 10px;
+    background-color: rgba(253, 253, 253, 0.78);
+    border-radius: 20px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hr_nabar {
+    background-color: rgb(243 216 216 / 78%);
+    border-radius: 20px;
+    height: 70px;
+    margin-top: 1px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.hr_nabar h1 {
+    color: #222260;
+    font-size: 32px;
+    margin: 0;
+}
+
+.hr_nabar1 {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+
+}
+
+.img {
+    margin-left: 55%;
+}
+
+.languageSwithcher {
+    background: none;
+    border: none;
+    /* Xóa viền */
+    cursor: pointer;
+}
+
+.user-con {
+    display: flex;
+    align-items: center;
+}
+
+.user-con img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.text h5 {
+    color: #222260;
+    margin: 0;
+    font-size: 18px;
+}
+
+.text p {
+    color: #555;
+    margin: 0;
+}
+
+.ai-icon {
+    display: flex;
+    align-items: center;
+    color: #222260;
+    transition: color 0.3s;
+}
+
+.ai-icon:hover {
+    color: #e74c3c;
+}
+
+.ai-icon svg {
+    width: 28px;
+    height: 28px;
+}
+
+.hr_nabar1 img {
+    width: 40%;
+}
+
+.hr_nabar1 li {
+    list-style: none;
+}
+
+.dropdown-center img {
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+
+/*hr_body*/
+.hr_body {
+    background-color: rgb(243 216 216 / 78%);
+   max-height:2000px;
+    margin-top: 2%;
+    border-radius: 20px;
+}
+.coler{
+    width: 100%;
+    background-color: rgb(243 216 216 / 78%);
+    height: 30px;
+    border-radius: 20px;
+}
+.hr_navbar {
+    display: flex;
+    background-color: aliceblue;
+    width: 96%;
+    margin-left: 2%;
+   padding: 1%;
+   border-radius: 20px;
+}
+
+.hr_a {
+    background-color: #222260;
+}
+
+.hr_a img {
+    width: 100%;
+    height: 300px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    padding: 1%;
+    border-radius: 30px;
+    width: 50%;
+}
+
+.image {
+    width: 70%;
+}
+.quantity{
+    margin-top: 25%;
+}
+.text-overlay {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text-overlay {
+    display: flex;
+}
+.all{
+    border-radius: 20px;
+}
+.text-overlay svg {
+    width: 130%;
+    margin-left: 50%;
+}
+.circle-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 20%;
+  }
+  
+  .circle-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #d3831b;
+    border-radius: 50%; 
+
+  }
+  .tq{
+    margin-left: 3%;
+    margin-top: 5%;
+    display: flex;
+  }
+
+  .circle-icon-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 30%;
+  }
+  
+  .circle-icon1 {
+    margin-top: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: #d3831b;
+    border-radius: 50%; 
+  }
+  .has-arrow  {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    padding: 0;
+    cursor: pointer;
+    color: #222260;
+}
+.nav-text{
+    margin-left: 15px;
+}
+/*thu chi*/
+.home-spending {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 3%;
+    width: 90%;
+  
+}
+
+.home-amount-spending {
+    text-align: center;
+    font-size: 1.2em;
+    color: #007bff;
+    margin: 0;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid rgba(13, 16, 233, 0.333);
+    width: 20%;
+    margin-left: 10%;
+}
+
+.home-spending-icome,
+.home-spending-expence {
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+    width: 20%;
+    
+}
+
+.home-spending-icome h5,
+.home-spending-expence h5 {
+    font-size: 1.2em;
+    color: #28a745;
+    margin: 0;
+    font-weight: bold;
+}
+
+.home-spending-icome p,
+.home-spending-expence p {
+    font-size: 0.9em;
+    color: #6c757d;
+    margin: 0;
+}
+
+.home-spending-icome {
+    border: 2px solid #28a745;
+}
+
+.home-spending-expence {
+    border: 2px solid #dc3545;
+}
+
+.home-spending-expence h5 {
+    color: #dc3545;
+}
+/**/
+.home-transaction {
+    padding: 20px;
+    
+   
+}
+.home-transaction table{
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.home-transaction h3 {
+    font-size: 1.5em;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table tr {
+ 
+    border-bottom: 1px solid #ddd;
+}
+
+table td {
+    padding: 12px 15px;
+    text-align: center;
+    font-size: 1em;
+    color: #333;
+}
+
+table td p {
+    margin: 0;
+    font-size: 0.9em;
+}
+tr td:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

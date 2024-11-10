@@ -1,0 +1,57 @@
+.category-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    background-color: #f8f9fa; /* Màu nền nhạt */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+}
+
+.classify-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff; /* Màu nền cho từng item */
+    transition: transform 0.2s ease;
+}
+
+.classify-item:hover {
+    transform: scale(1.02); /* Hiệu ứng phóng to nhẹ khi hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Đổ bóng khi hover */
+}
+
+.classify-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid #dedede; /* Viền cho icon */
+}
+
+.classify-name {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+    margin: 0;
+    flex: 1; /* Chiếm hết chiều ngang còn lại */
+}
+
+.classify-type {
+    color: #0066cc;
+    font-size: 0.95em;
+    font-weight: 600;
+    margin: 0;
+}
+
+.classify-description {
+    color: #666;
+    font-size: 0.9em;
+    margin: 0;
+    max-width: 200px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

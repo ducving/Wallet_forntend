@@ -1,0 +1,357 @@
+.cart-home-2 {
+    display: flex;
+ 
+}
+.cart-home-2 a{
+    text-decoration: none;
+}
+
+.wallet-create {
+    float: right;
+    margin-top: 1%;
+}
+
+.cartd-home-1 {
+    padding: 10px;
+    text-align: center;
+}
+
+.cartd-home-1 button {
+    background-color: #66D9EF;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cartd-home-1 button:hover {
+    background-color: #57c4d9;
+}
+
+.amount {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top:20%;
+}
+
+.currency-symbol {
+    font-size: 30px;
+    
+}
+
+.name {
+    font-size: 30px;
+    color: #fff;
+}
+
+.Wallet-modal {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+.create-wallet-container {
+    display: flex;
+
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.create-wallet-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+    border-color: #66d9ef;
+}
+
+.wallet-submit-button {
+    background-color: #66D9EF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    width: 40%;
+}
+
+.submit-button:hover {
+    background-color: #57c4d9;
+}
+
+.wallet-back-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    margin-left: 1%;
+    background-color: #FFA54D;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #e6953d;
+}
+
+.wallet-icon img {
+    width: 70%;
+    
+
+}
+
+.wallet-icon {
+    margin-top: -9%;
+    margin-left: 5%;
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+.wallet-add-buuton {
+    margin-left: 85%;
+}
+
+/*modal*/
+
+.wallet-modal-button {
+    display: flex;
+    text-align: center;
+    margin-left: 27%;
+}
+.form-container{
+    width: 100%;
+}
+.form-container-thu{
+    width: 100%;
+}
+.wallet-modal-button button {
+    width: 200px;
+    margin-left: 1%;
+    border-radius: 20px;
+    background-color: white; 
+    font-size: 15px;
+    border:  #ddd;
+    font-weight: bold; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.wallet-modal-button button.active {
+    background-color: #5bcfc5;
+    color: white;
+    border: 1px solid #5bcfc5; 
+}
+
+
+.transaction-form{
+    width: 100%;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+label {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 4px;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="date"],
+select {
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.wallet-dropdown {
+    display: flex;
+    align-items: center;
+}
+
+.wallet-icon {
+    height: 24px;
+    margin-right: 8px;
+}
+
+.button-group {
+    grid-column: span 2;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.cancel-button,
+.submit-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cancel-button {
+    background-color: #6c757d;
+}
+
+.submit-button {
+    background-color: #28a745;
+}
+
+
+/* Đặt kiểu chung cho form */
+.transaction-form {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Kiểu cho từng phần tử trong form */
+  .transaction-form div {
+    margin-bottom: 15px;
+  }
+  
+  .transaction-form label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .transaction-form input[type="number"],
+  .transaction-form input[type="date"],
+  .transaction-form select,
+  .transaction-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .transaction-form input:focus,
+  .transaction-form select:focus,
+  .transaction-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Kiểu cho textarea */
+  .transaction-form textarea {
+    resize: vertical;
+  }
+  
+  /* Kiểu cho nút submit */
+  .transaction-form button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .transaction-form button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  .wallets-container{
+   margin-left: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .wallets-container a{
+    margin-left: 2% ;
+    margin-top: 4%;
+  }
+  .wallet-findall{
+    display: flex;
+  }
+  .wallet-details{
+    width: 400px;
+    padding: 20px;
+    background-color: #FFA54D;
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+    height: 300px;
+    margin-top: 5%;
+    margin-left: 2%;
+  }
+  .wallet-details img{
+    width: 30%;
+  }
+  .wallet-details p{
+    font-size: 30px;
+  }
+
+  .wallet-details button{
+    
+        background-color: #2d95aa;
+        border: none;
+        border-radius: 50px;
+        color: #ffffff;
+        padding: 8px 12px;
+        cursor: pointer;
+        font-size: 14px;
+        margin-left: 1%;
+    
+
+  }
+
+      
+  .wallet-button:hover {
+    background-color: #57c4d9;
+}

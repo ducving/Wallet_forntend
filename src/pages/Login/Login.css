@@ -1,0 +1,122 @@
+.login_body{
+    background-image: url("https://app.qnsk.site/images/bg.png");
+    height: 100vh;
+}
+.login_form{
+    height: 600px;
+  
+    
+}
+.password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-container input {
+    padding-right: 40px; /* Tạo khoảng trống cho biểu tượng con mắt */
+}
+
+
+.login_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Chiều cao toàn bộ màn hình */
+    background-color: #f0f0f0; /* Màu nền nhẹ */
+}
+
+.login_form {
+    background-color: #fff; /* Màu nền trắng cho form */
+    padding: 20px;
+    border-radius: 10px; /* Bo góc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng */
+    width: 25%; /* Chiều rộng cố định */
+}
+
+.login_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.login_logo h1 {
+    margin-top: 10px;
+    font-size: 24px; /* Kích thước chữ lớn hơn */
+    color: #333; /* Màu chữ */
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+.login label {
+    margin-bottom: 5px; /* Khoảng cách giữa label và input */
+    color: #555; /* Màu chữ cho label */
+    margin-left: 7%;
+    margin-top: 2%;
+}
+
+.login input {
+    padding: 2px; /* Khoảng cách bên trong input */
+    margin-bottom: 15px; /* Khoảng cách giữa các input */
+    border: 1px solid #ccc; /* Viền cho input */
+    border-radius: 5px; /* Bo góc cho input */
+    font-size: 100%; /* Kích thước chữ cho input */
+    height: 40px;
+    width: 85%;
+    margin-left: 7%;
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-container button {
+    position: absolute;
+    right: 10px;
+    top: 40%; /* Căn giữa theo chiều dọc */
+    transform: translateY(-50%); /* Căn giữa chính xác */
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #007BFF; /* Màu cho nút hiển thị */
+    font-size: 14px; /* Kích thước chữ cho nút hiển thị */
+    margin-right: 10%;
+}
+
+.login button[type='submit'] {
+    padding: 10px;
+    background-color: #5bcfc5; /* Màu nền cho nút submit */
+    color: white; /* Màu chữ */
+    border: none;
+    border-radius: 5px; /* Bo góc cho nút submit */
+    cursor: pointer;
+    font-size: 16px; /* Kích thước chữ cho nút submit */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển đổi */
+    width: 86%;
+    margin-left: 7%;
+    margin-top: 5%;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.login button[type='submit']:hover {
+    background-color: #196b64; /* Màu nền khi hover */
+}
+.login a{
+margin-left: 7%;font-size: 15px;
+}
+.login_form p{
+margin-left: 44%;
+}
+.register{
+    display: flex;
+    margin-left: 25%;
+}
+.register a{
+    margin-top: 6%;
+    margin-left: 2%;
+}
